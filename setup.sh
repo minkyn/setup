@@ -41,7 +41,6 @@ brew install htop
 brew install lftp
 brew install nmap
 brew install openssh
-brew install protobuf
 brew install python
 brew install python3
 brew install repo
@@ -49,10 +48,16 @@ brew install tree
 brew install watch
 brew install vim --with-override-system-vi
 
+# brew install mysql
+# brew install nginx
+# brew install octave
+# brew install opensc
+# brew install protobuf
+
 brew cleanup
 
 brew tap caskroom/cask
 
-# TODO: brew cask install ...
+# brew cask install caffeine
 
 brew cask cleanup
