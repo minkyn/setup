@@ -42,7 +42,6 @@ brew install lftp
 brew install nmap
 brew install openssh
 brew install python
-brew install python3
 brew install repo
 brew install tree
 brew install watch
