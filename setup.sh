@@ -51,7 +51,9 @@ brew install vim --with-override-system-vi
 # brew install nginx
 # brew install octave
 # brew install opensc
+# brew install pipenv
 # brew install protobuf
+# brew install pyenv
 
 brew cleanup
 
