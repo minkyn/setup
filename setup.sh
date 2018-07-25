@@ -47,6 +47,7 @@ brew install tmux
 brew install tree
 brew install watch
 brew install vim --with-override-system-vi
+brew install zsh
 
 # brew install mysql
 # brew install nginx
