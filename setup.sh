@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 xcode-select --install
-sudo xcodebuild -license
+# sudo xcodebuild -license
 
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 brew doctor
