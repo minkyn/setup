@@ -61,6 +61,7 @@ brew tap caskroom/cask
 
 # brew cask install caffeine
 # brew cask install java
+# brew cask install shadowsocksx-ng
 # brew cask install xquartz
 
 brew cask cleanup
