@@ -1,9 +1,20 @@
 #!/usr/bin/env bash
 
 xcode-select --install
-# sudo xcodebuild -license
-
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+
+brew tap caskroom/cask
+
+brew cask install caffeine
+# brew cask install elmedia-player
+# brew cask install folx
+# brew cask install google-chrome
+brew cask install java
+brew cask install shadowsocksx-ng
+brew cask install xquartz
+
+brew cask cleanup
+
 brew doctor
 
 brew install autoconf
@@ -32,7 +43,7 @@ brew install screen
 brew install wdiff --with-gettext
 brew install wget
 
-brew install bash-completion
+brew install bash-completion  # Update .bashrc
 brew install cmake
 brew install curl --with-openssl
 brew install git
@@ -48,6 +59,9 @@ brew install tree
 brew install watch
 brew install vim --with-override-system-vi
 brew install zsh
+brew install zsh-completions  # Update .zshrc & rebuild .zcompdump
+
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 
 # brew install mysql
 # brew install nginx
@@ -58,12 +72,3 @@ brew install zsh
 # brew install pyenv
 
 brew cleanup
-
-brew tap caskroom/cask
-
-# brew cask install caffeine
-# brew cask install java
-# brew cask install shadowsocksx-ng
-# brew cask install xquartz
-
-brew cask cleanup
