@@ -43,6 +43,7 @@ brew install nmap
 brew install openssh
 brew install python
 brew install repo
+brew install tmux
 brew install tree
 brew install watch
 brew install vim --with-override-system-vi
