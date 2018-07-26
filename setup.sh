@@ -14,7 +14,7 @@ brew cask install iterm2
 brew cask install java
 # brew cask install microsoft-office
 brew cask install shadowsocksx-ng
-# brew cask install visual-studio-code
+brew cask install visual-studio-code
 brew cask install xquartz
 
 brew cask cleanup
