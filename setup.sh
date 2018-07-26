@@ -5,12 +5,16 @@ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/
 
 brew tap caskroom/cask
 
+# brew cask install adobe-acrobat-pro
 brew cask install caffeine
 # brew cask install elmedia-player
 # brew cask install folx
 # brew cask install google-chrome
+brew cask install iterm2
 brew cask install java
+# brew cask install microsoft-office
 brew cask install shadowsocksx-ng
+# brew cask install visual-studio-code
 brew cask install xquartz
 
 brew cask cleanup
