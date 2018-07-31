@@ -64,7 +64,6 @@ brew install tree
 brew install watch
 brew install vim --with-override-system-vi
 brew install zsh
-brew install zsh-completions  # Update .zshrc & rebuild .zcompdump
 
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 
