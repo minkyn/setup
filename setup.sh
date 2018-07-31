@@ -6,17 +6,22 @@ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/
 brew tap caskroom/cask
 
 # brew cask install adobe-acrobat-pro
-brew cask install caffeine
-# brew cask install elmedia-player
-# brew cask install folx
 # brew cask install google-chrome
+# brew cask install microsoft-office
+
+brew cask install caffeine
+brew cask install elmedia-player
+brew cask install folx
 brew cask install iterm2
 brew cask install java
-# brew cask install microsoft-office
-# brew cask install proxifier
 brew cask install shadowsocksx-ng
 brew cask install visual-studio-code
 brew cask install xquartz
+
+# brew cask install axure-rp
+# brew cask install sketch
+# brew cask install skype-for-business
+# brew cask install zoomus
 
 brew cask cleanup
 
@@ -48,7 +53,7 @@ brew install screen
 brew install wdiff --with-gettext
 brew install wget
 
-brew install bash-completion  # Update .bashrc
+brew install bash-completion
 brew install cmake
 brew install curl --with-openssl
 brew install git
