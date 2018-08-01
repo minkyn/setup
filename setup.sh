@@ -18,8 +18,6 @@ brew cask install shadowsocksx-ng
 brew cask install visual-studio-code
 brew cask install xquartz
 
-# brew cask install axure-rp
-# brew cask install sketch
 # brew cask install skype-for-business
 # brew cask install zoomus
 
