@@ -53,12 +53,14 @@ brew install wget
 
 brew install bash-completion
 brew install cmake
+brew install ctags
 brew install curl --with-openssl
 brew install git
 brew install gradle
 brew install htop
 brew install lftp
 brew install nmap
+brew install node
 brew install openssh
 brew install python
 brew install repo
