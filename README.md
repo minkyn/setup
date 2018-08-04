@@ -1,4 +1,4 @@
-Homebrew
-========
+Setup
+=====
 
-My homebrew installation.
+My installation scripts.
