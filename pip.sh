@@ -27,4 +27,5 @@ pipenv install odo
 pipenv install dask
 
 pipenv install opencv-python
+pipenv install scikit-learn
 pipenv install tensorflow
