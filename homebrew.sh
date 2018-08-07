@@ -8,6 +8,8 @@ brew tap caskroom/cask
 # brew cask install adobe-acrobat-pro
 # brew cask install google-chrome
 # brew cask install microsoft-office
+# brew cask install skype-for-business
+# brew cask install zoomus
 
 brew cask install caffeine
 brew cask install elmedia-player
@@ -18,8 +20,9 @@ brew cask install shadowsocksx-ng
 brew cask install visual-studio-code
 brew cask install xquartz
 
-# brew cask install skype-for-business
-# brew cask install zoomus
+# brew cask install android-ndk
+brew cask install android-platform-tools
+# brew cask install android-sdk
 
 brew cask cleanup
 
