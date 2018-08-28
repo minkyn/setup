@@ -8,11 +8,11 @@ brew tap caskroom/cask
 brew cask install the-unarchiver
 brew cask install folx
 brew cask install elmedia-player
+brew cask install keepingyouawake
+brew cask install shiftit
 brew cask install iterm2
 brew cask install shadowsocksx-ng
 brew cask install proxifier
-brew cask install keepingyouawake
-brew cask install shiftit
 brew cask install xquartz
 
 brew cask install java
