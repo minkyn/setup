@@ -20,6 +20,7 @@ brew cask install android-platform-tools
 brew cask install android-sdk
 brew cask install android-ndk
 brew cask install visual-studio-code
+brew cask install dash
 
 # brew cask install google-chrome
 # brew cask install adobe-acrobat-pro
