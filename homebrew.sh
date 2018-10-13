@@ -8,9 +8,9 @@ brew tap caskroom/cask
 brew cask install the-unarchiver
 brew cask install folx
 brew cask install elmedia-player
+brew cask install iterm2
 brew cask install keepingyouawake
 brew cask install shiftit
-brew cask install iterm2
 brew cask install shadowsocksx-ng
 brew cask install proxifier
 brew cask install xquartz
@@ -23,9 +23,10 @@ brew cask install visual-studio-code
 brew cask install dash
 
 # brew cask install google-chrome
-# brew cask install adobe-acrobat-pro
 # brew cask install microsoft-office
+# brew cask install adobe-acrobat-pro
 # brew cask install drawio
+# brew cask install slack
 # brew cask install skype-for-business
 # brew cask install zoomus
 
