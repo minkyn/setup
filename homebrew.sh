@@ -5,6 +5,11 @@ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/
 
 brew tap caskroom/cask
 
+# brew cask install google-chrome
+# brew cask install microsoft-office
+# brew cask install adobe-acrobat-pro
+# brew cask install drawio
+
 brew cask install the-unarchiver
 brew cask install folx
 brew cask install elmedia-player
@@ -15,20 +20,18 @@ brew cask install shadowsocksx-ng
 brew cask install proxifier
 brew cask install xquartz
 
+brew cask install wechat
+brew cask install dingtalk
+brew cask install slack
+brew cask install skype-for-business
+brew cask install zoomus
+
 brew cask install java
 brew cask install android-platform-tools
 brew cask install android-sdk
 brew cask install android-ndk
 brew cask install visual-studio-code
 brew cask install dash
-
-# brew cask install google-chrome
-# brew cask install microsoft-office
-# brew cask install adobe-acrobat-pro
-# brew cask install drawio
-# brew cask install slack
-# brew cask install skype-for-business
-# brew cask install zoomus
 
 brew cask cleanup
 
