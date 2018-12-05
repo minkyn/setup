@@ -7,9 +7,10 @@ pip check
 
 curl https://raw.githubusercontent.com/mitsuhiko/pipsi/master/get-pipsi.py | python
 
+# Some tools below are also available via Homebrew
 pipsi install awscli
 pipsi install coursera-dl
-# pipsi install pipenv
+pipsi install pipenv
 pipsi install tox
 pipsi install youtube-dl
 
