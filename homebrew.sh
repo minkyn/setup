@@ -9,6 +9,7 @@ brew tap caskroom/cask
 # brew cask install microsoft-office
 # brew cask install adobe-acrobat-pro
 # brew cask install drawio
+# brew cask install xmind-zen
 
 brew cask install the-unarchiver
 brew cask install folx
@@ -30,6 +31,7 @@ brew cask install java
 brew cask install android-platform-tools
 brew cask install android-sdk
 brew cask install android-ndk
+brew cask install docker
 brew cask install visual-studio-code
 brew cask install dash
 
