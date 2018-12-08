@@ -24,8 +24,8 @@ brew cask install zoomus
 
 # brew cask install adobe-acrobat-pro
 # brew cask install microsoft-office
-# brew cask install drawio
-# brew cask install xmind-zen
+brew cask install drawio
+brew cask install xmind-zen
 
 brew cask install java
 brew cask install android-platform-tools
