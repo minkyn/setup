@@ -4,23 +4,27 @@ xcode-select --install
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
 brew tap caskroom/cask
+# brew cask update
 
 brew cask install google-chrome
 brew cask install the-unarchiver
 brew cask install folx
 brew cask install elmedia-player
-brew cask install iterm2
+# mas install memory clean 3
 brew cask install keepingyouawake
 brew cask install shiftit
+brew cask install iterm2
 brew cask install shadowsocksx-ng
 brew cask install proxifier
 brew cask install xquartz
 
 brew cask install wechat
 brew cask install dingtalk
-brew cask install slack
+# brew cask install slack
 brew cask install skype-for-business
 brew cask install zoomus
+# brew cask install evernote
+# mas install trello
 
 # brew cask install adobe-acrobat-pro
 # brew cask install microsoft-office
@@ -37,6 +41,7 @@ brew cask install visual-studio-code
 brew cask cleanup
 
 brew doctor
+# brew update
 
 brew install autoconf
 brew install automake
