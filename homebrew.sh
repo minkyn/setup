@@ -10,7 +10,7 @@ brew cask install google-chrome
 brew cask install the-unarchiver
 brew cask install folx
 brew cask install elmedia-player
-# mas install memory clean 3
+# mas install memory cleaner
 brew cask install keepingyouawake
 brew cask install shiftit
 brew cask install iterm2
@@ -30,6 +30,7 @@ brew cask install zoomus
 # brew cask install microsoft-office
 brew cask install drawio
 brew cask install xmind-zen
+brew cask install axure-rp
 
 brew cask install java
 brew cask install android-platform-tools
