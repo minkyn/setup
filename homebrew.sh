@@ -18,13 +18,10 @@ brew cask install shadowsocksx-ng
 brew cask install proxifier
 brew cask install xquartz
 
+# mas install trello
 brew cask install wechat
 brew cask install dingtalk
-# brew cask install slack
-brew cask install skype-for-business
 brew cask install zoomus
-# brew cask install evernote
-# mas install trello
 
 # brew cask install adobe-acrobat-pro
 # brew cask install microsoft-office
