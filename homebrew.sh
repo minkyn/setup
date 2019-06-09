@@ -10,13 +10,15 @@ brew cask install google-chrome
 brew cask install the-unarchiver
 brew cask install folx
 brew cask install elmedia-player
-# mas install memory cleaner
+# mas install memory diag
 brew cask install keepingyouawake
 brew cask install shiftit
 brew cask install iterm2
 brew cask install shadowsocksx-ng
 brew cask install proxifier
 brew cask install xquartz
+
+# defaults write org.macosforge.xquartz.X11 enable_iglx -bool true
 
 # mas install trello
 brew cask install wechat
@@ -88,12 +90,19 @@ brew install zsh
 
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 
+# brew install ffmpeg
+# brew install glfw
+# brew install gstreamer
 # brew install mysql
 # brew install nginx
 # brew install octave
+# brew install opencv
 # brew install opensc
 # brew install pipenv
 # brew install protobuf
 # brew install pyenv
+# brew install shadowsocks-libev
+
+# brew services start shadowsocks-libev
 
 brew cleanup
