@@ -10,6 +10,7 @@ curl https://raw.githubusercontent.com/mitsuhiko/pipsi/master/get-pipsi.py | pyt
 # Some tools below are also available via Homebrew
 pipsi install awscli
 pipsi install coursera-dl
+pipsi install glad
 pipsi install pipenv
 pipsi install tox
 pipsi install youtube-dl
