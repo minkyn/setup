@@ -101,6 +101,7 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/mas
 # brew install pipenv
 # brew install protobuf
 # brew install pyenv
+# brew install sdl2
 # brew install shadowsocks-libev
 
 # brew services start shadowsocks-libev
