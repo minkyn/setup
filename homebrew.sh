@@ -28,17 +28,22 @@ brew cask install microsoft-teams
 brew cask install yammer
 
 brew cask install visual-studio-code
-brew cask install iterm2
-brew cask install shadowsocksx-ng
-brew cask install proxifier
-brew cask install xquartz
-# defaults write org.macosforge.xquartz.X11 enable_iglx -bool true
+# brew cask install intellij-idea-ce
+# brew cask install pycharm-ce
+# brew cask install arduino
+# brew cask install mbed-studio
 
 brew cask install java
 brew cask install android-platform-tools
 # brew cask install android-sdk
 # brew cask install android-ndk
 # brew cask install docker
+
+brew cask install iterm2
+brew cask install shadowsocksx-ng
+brew cask install proxifier
+brew cask install xquartz
+# defaults write org.macosforge.xquartz.X11 enable_iglx -bool true
 
 # mas install trello
 # brew cask install slack
