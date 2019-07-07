@@ -32,12 +32,13 @@ brew cask install visual-studio-code
 # brew cask install pycharm-ce
 # brew cask install arduino
 # brew cask install mbed-studio
+brew cask install github
+brew cask install docker
 
 brew cask install java
 brew cask install android-platform-tools
 # brew cask install android-sdk
 # brew cask install android-ndk
-# brew cask install docker
 
 brew cask install iterm2
 brew cask install shadowsocksx-ng
