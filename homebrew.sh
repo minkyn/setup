@@ -33,7 +33,7 @@ brew cask install visual-studio-code
 # brew cask install arduino
 # brew cask install mbed-studio
 brew cask install github
-brew cask install docker
+# brew cask install docker
 
 brew cask install java
 brew cask install android-platform-tools
@@ -104,6 +104,7 @@ brew install zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 
 # brew install ffmpeg
+# brew install gflags
 # brew install glew
 # brew install glfw
 # brew install gstreamer
