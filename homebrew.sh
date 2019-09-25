@@ -28,11 +28,8 @@ brew cask install microsoft-teams
 brew cask install yammer
 
 brew cask install visual-studio-code
-# brew cask install intellij-idea-ce
-# brew cask install pycharm-ce
-# brew cask install arduino
-# brew cask install mbed-studio
 brew cask install github
+brew cask install anaconda
 # brew cask install docker
 
 brew cask install java
@@ -117,8 +114,8 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/mas
 # brew install protobuf
 # brew install pyenv
 # brew install sdl2
-# brew install shadowsocks-libev
 
+brew install shadowsocks-libev
 # brew services start shadowsocks-libev
 
 brew cleanup
