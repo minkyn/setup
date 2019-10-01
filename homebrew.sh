@@ -48,9 +48,8 @@ brew cask install xquartz
 # brew cask install dropbox
 # brew cask install zoomus
 
-brew cask cleanup
+# brew cask cleanup
 
-brew doctor
 # brew update
 
 brew install autoconf
@@ -59,30 +58,30 @@ brew install bash
 brew install binutils
 brew install coreutils
 brew install diffutils
-brew install ed --with-default-names
+brew install ed -- --with-default-names
 brew install emacs
-brew install findutils --with-default-names
+brew install findutils -- --with-default-names
 brew install gawk
-brew install gnu-indent --with-default-names
-brew install gnu-sed --with-default-names
-brew install gnu-tar --with-default-names
-brew install gnu-time  --with-default-names
-brew install gnu-which --with-default-names
+brew install gnu-indent -- --with-default-names
+brew install gnu-sed -- --with-default-names
+brew install gnu-tar -- --with-default-names
+brew install gnu-time -- --with-default-names
+brew install gnu-which -- --with-default-names
 brew install gnupg
 brew install gpatch
-brew install grep --with-default-names
+brew install grep -- --with-default-names
 brew install gzip
 brew install less
-brew install make --with-default-names
+brew install make -- --with-default-names
 brew install nano
 brew install screen
-brew install wdiff --with-gettext
+brew install wdiff -- --with-gettext
 brew install wget
 
 brew install bash-completion
 brew install cmake
 brew install ctags
-brew install curl --with-openssl
+brew install curl -- --with-openssl
 brew install git
 brew install gradle
 brew install htop
@@ -95,7 +94,7 @@ brew install repo
 brew install tmux
 brew install tree
 brew install watch
-brew install vim --with-override-system-vi
+brew install vim -- --with-override-system-vi
 brew install zsh
 
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
@@ -119,3 +118,5 @@ brew install shadowsocks-libev
 # brew services start shadowsocks-libev
 
 brew cleanup
+
+brew doctor
