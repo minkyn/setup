@@ -14,39 +14,34 @@ brew cask install elmedia-player
 brew cask install keepingyouawake
 brew cask install shiftit
 
+brew cask install google-backup-and-sync
 brew cask install wechat
 brew cask install dingtalk
 brew cask install whatsapp
-
-# brew cask install adobe-acrobat-pro
-brew cask install drawio
-brew cask install xmind-zen
-brew cask install axure-rp
-brew cask install microsoft-office
-brew cask install onedrive
+# mas install trello
 brew cask install microsoft-teams
 brew cask install yammer
+
+brew cask install adobe-acrobat-pro
+brew cask install microsoft-office
+brew cask install drawio
+brew cask install xmind-zen
+# brew cask install axure-rp
 
 brew cask install visual-studio-code
 brew cask install github
 brew cask install anaconda
 # brew cask install docker
+brew cask install iterm2
+brew cask install shadowsocksx-ng
+brew cask install proxifier
 
 brew cask install java
 brew cask install android-platform-tools
 # brew cask install android-sdk
 # brew cask install android-ndk
-
-brew cask install iterm2
-brew cask install shadowsocksx-ng
-brew cask install proxifier
 brew cask install xquartz
 # defaults write org.macosforge.xquartz.X11 enable_iglx -bool true
-
-# mas install trello
-# brew cask install slack
-# brew cask install dropbox
-# brew cask install zoomus
 
 # brew cask cleanup
 
