@@ -3,8 +3,7 @@
 xcode-select --install
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
-brew tap caskroom/cask
-# brew cask update
+brew update
 
 brew cask install google-chrome
 brew cask install the-unarchiver
@@ -42,10 +41,6 @@ brew cask install android-platform-tools
 # brew cask install android-ndk
 brew cask install xquartz
 # defaults write org.macosforge.xquartz.X11 enable_iglx -bool true
-
-# brew cask cleanup
-
-# brew update
 
 brew install autoconf
 brew install automake
