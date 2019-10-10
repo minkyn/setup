@@ -21,7 +21,7 @@ brew cask install whatsapp
 brew cask install microsoft-teams
 brew cask install yammer
 
-brew cask install adobe-acrobat-pro
+brew cask install adobe-acrobat-reader
 brew cask install microsoft-office
 brew cask install drawio
 brew cask install xmind-zen
