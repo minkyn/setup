@@ -13,13 +13,13 @@ brew cask install elmedia-player
 brew cask install keepingyouawake
 brew cask install shiftit
 
-brew cask install google-backup-and-sync
 brew cask install wechat
 brew cask install dingtalk
 brew cask install whatsapp
-# mas install trello
 brew cask install microsoft-teams
 brew cask install yammer
+# mas install trello
+# mas install jira
 
 brew cask install adobe-acrobat-reader
 brew cask install microsoft-office
