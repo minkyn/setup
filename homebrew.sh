@@ -17,9 +17,9 @@ brew cask install wechat
 brew cask install dingtalk
 brew cask install whatsapp
 brew cask install microsoft-teams
-brew cask install yammer
 # mas install trello
 # mas install jira
+# mas install confluence
 
 brew cask install adobe-acrobat-reader
 brew cask install microsoft-office
@@ -33,6 +33,7 @@ brew cask install anaconda
 # brew cask install postman
 brew cask install iterm2
 brew cask install shadowsocksx-ng
+# brew cask install tunnelblick
 brew cask install proxifier
 
 brew cask install java
