@@ -14,9 +14,11 @@ brew cask install keepingyouawake
 brew cask install shiftit
 
 brew cask install wechat
+brew cask install wechatwork
 brew cask install dingtalk
-brew cask install whatsapp
-brew cask install microsoft-teams
+# brew cask install whatsapp
+# brew cask install zoomus
+# brew cask install microsoft-teams
 # mas install trello
 # mas install jira
 # mas install confluence
@@ -106,6 +108,7 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/mas
 # brew install sdl2
 
 brew install shadowsocks-libev
+# vim $(brew --prefix)/etc/shadowsocks-libev.json
 # brew services start shadowsocks-libev
 
 brew cleanup
