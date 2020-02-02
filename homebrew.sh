@@ -31,8 +31,9 @@ brew cask install xmind-zen
 
 brew cask install visual-studio-code
 brew cask install github
-brew cask install anaconda
+brew cask install miniconda
 # brew cask install postman
+# brew cask install wireshark
 brew cask install iterm2
 brew cask install shadowsocksx-ng
 # brew cask install tunnelblick
