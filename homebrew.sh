@@ -94,21 +94,6 @@ brew install zsh
 
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 
-# brew install ffmpeg
-# brew install gflags
-# brew install glew
-# brew install glfw
-# brew install gstreamer
-# brew install mysql
-# brew install nginx
-# brew install octave
-# brew install opencv
-# brew install opensc
-# brew install pipenv
-# brew install protobuf
-# brew install pyenv
-# brew install sdl2
-
 brew install shadowsocks-libev
 # vim $(brew --prefix)/etc/shadowsocks-libev.json
 # brew services start shadowsocks-libev
