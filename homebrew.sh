@@ -17,8 +17,10 @@ brew cask install wechat
 brew cask install wechatwork
 brew cask install dingtalk
 # brew cask install whatsapp
+brew cask install tecent-meeting
 # brew cask install zoomus
 # brew cask install microsoft-teams
+
 # mas install trello
 # mas install jira
 # mas install confluence
@@ -36,8 +38,8 @@ brew cask install miniconda
 # brew cask install postman
 # brew cask install wireshark
 brew cask install iterm2
-brew cask install shadowsocksx-ng
-# brew cask install tunnelblick
+brew cask install shadowsocksx-ng-r  # shadowsocksx-ng
+brew cask install openvpn-connect  # wireguard
 brew cask install proxifier
 
 brew cask install java
