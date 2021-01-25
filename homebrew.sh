@@ -18,7 +18,7 @@ brew cask install wechatwork
 brew cask install dingtalk
 # brew cask install whatsapp
 brew cask install tecent-meeting
-# brew cask install zoomus
+# brew cask install zoom
 # brew cask install microsoft-teams
 
 # mas install trello
