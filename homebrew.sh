@@ -5,48 +5,50 @@ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/
 
 brew update
 
-brew cask install google-chrome
-brew cask install the-unarchiver
-brew cask install folx
-brew cask install elmedia-player
+brew install --cask google-chrome
+brew install --cask the-unarchiver
+brew install --cask folx
+brew install --cask elmedia-player
 # mas install memory diag
-brew cask install keepingyouawake
-brew cask install shiftit
+brew install --cask keepingyouawake
+brew install --cask shiftit
 
-brew cask install wechat
-brew cask install wechatwork
-brew cask install dingtalk
-# brew cask install whatsapp
-brew cask install tecent-meeting
-# brew cask install zoom
-# brew cask install microsoft-teams
+brew install --cask wechat
+brew install --cask wechatwork
+brew install --cask dingtalk
+# brew install --cask whatsapp
+brew install --cask tecent-meeting
+brew install --cask zoom
+# brew install --cask microsoft-teams
+# brew install --cask baidunetdisk
+
+brew install --cask adobe-acrobat-reader
+brew install --cask microsoft-office
+brew install --cask drawio
+brew install --cask xmind-zen
+# brew install --cask axure-rp
 
 # mas install trello
 # mas install jira
 # mas install confluence
 
-brew cask install adobe-acrobat-reader
-brew cask install microsoft-office
-brew cask install drawio
-brew cask install xmind-zen
-# brew cask install axure-rp
+brew install --cask visual-studio-code
+brew install --cask github
+brew install --cask miniconda
+# brew install --cask sequel-pro
+# brew install --cask postman
+# brew install --cask wireshark
 
-brew cask install visual-studio-code
-brew cask install github
-brew cask install miniconda
-# brew cask install sequel-pro
-# brew cask install postman
-# brew cask install wireshark
-brew cask install iterm2
-brew cask install shadowsocksx-ng-r  # shadowsocksx-ng
-brew cask install openvpn-connect  # wireguard
-brew cask install proxifier
+brew install --cask iterm2
+brew install --cask shadowsocksx-ng-r  # shadowsocksx-ng
+brew install --cask openvpn-connect  # wireguard
+brew install --cask proxifier
 
-brew cask install java
-brew cask install android-platform-tools
-# brew cask install android-sdk
-# brew cask install android-ndk
-brew cask install xquartz
+brew install --cask java
+brew install --cask android-platform-tools
+# brew install --cask android-sdk
+# brew install --cask android-ndk
+brew install --cask xquartz
 # defaults write org.macosforge.xquartz.X11 enable_iglx -bool true
 
 brew install autoconf
