@@ -14,7 +14,7 @@ brew install --cask keepingyouawake
 brew install --cask shiftit
 
 brew install --cask wechat
-# brew install --cask whatsapp
+# brew install --cask signal
 # brew install --cask telegram
 # brew install --cask wechatwork
 brew install --cask dingtalk
