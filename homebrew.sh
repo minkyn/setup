@@ -13,17 +13,18 @@ brew install --cask elmedia-player
 brew install --cask keepingyouawake
 brew install --cask shiftit
 
+brew install --cask android-messages
+# chrome install messages
 brew install --cask wechat
-# brew install --cask signal
-# brew install --cask telegram
 # brew install --cask wechatwork
 brew install --cask dingtalk
 # brew install --cask slack
+
 brew install --cask tecent-meeting
 brew install --cask zoom
 # brew install --cask microsoft-teams
 
-# brew install --cask baidunetdisk
+brew install --cask baidunetdisk
 # brew install --cask google-back-and-sync
 # brew install --cask google-drive-file-stream
 # brew install --cask onedrive
