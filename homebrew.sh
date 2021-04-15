@@ -13,16 +13,16 @@ brew install --cask elmedia-player
 brew install --cask keepingyouawake
 brew install --cask shiftit
 
-brew install --cask android-messages
+# brew install --cask android-messages
 # chrome install messages
 brew install --cask wechat
-# brew install --cask wechatwork
-brew install --cask dingtalk
+brew install --cask wechatwork
+# brew install --cask dingtalk
 # brew install --cask slack
 
+brew install --cask microsoft-teams
 brew install --cask tecent-meeting
 brew install --cask zoom
-# brew install --cask microsoft-teams
 
 brew install --cask baidunetdisk
 # brew install --cask google-back-and-sync
