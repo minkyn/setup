@@ -16,8 +16,10 @@ brew install --cask shiftit
 # brew install --cask android-messages
 # chrome install messages
 brew install --cask wechat
-brew install --cask wechatwork
+brew install --cask whatsapp
+# brew install --cask wechatwork
 # brew install --cask dingtalk
+# brew install --cask lark
 # brew install --cask slack
 
 brew install --cask microsoft-teams
