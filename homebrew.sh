@@ -19,7 +19,7 @@ brew install --cask wechat
 brew install --cask whatsapp
 # brew install --cask wechatwork
 # brew install --cask dingtalk
-# brew install --cask lark
+# brew install --cask feishu
 # brew install --cask slack
 
 brew install --cask microsoft-teams
@@ -27,8 +27,7 @@ brew install --cask tecent-meeting
 brew install --cask zoom
 
 brew install --cask baidunetdisk
-# brew install --cask google-back-and-sync
-# brew install --cask google-drive-file-stream
+# brew install --cask google-drive
 # brew install --cask onedrive
 
 brew install --cask adobe-acrobat-reader
@@ -50,7 +49,7 @@ brew install --cask miniconda
 
 brew install --cask iterm2
 brew install --cask shadowsocksx-ng-r  # shadowsocksx-ng
-brew install --cask openvpn-connect  # wireguard
+# brew install --cask openvpn-connect  # wireguard
 brew install --cask proxifier
 
 brew install --cask java
