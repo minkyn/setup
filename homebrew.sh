@@ -22,9 +22,9 @@ brew install --cask whatsapp
 # brew install --cask feishu
 # brew install --cask slack
 
-brew install --cask microsoft-teams
 brew install --cask tecent-meeting
 brew install --cask zoom
+# brew install --cask microsoft-teams
 
 brew install --cask baidunetdisk
 # brew install --cask google-drive
@@ -54,6 +54,7 @@ brew install --cask proxifier
 
 brew install --cask java
 brew install --cask android-platform-tools
+# brew install --cask android-studio
 # brew install --cask android-sdk
 # brew install --cask android-ndk
 brew install --cask xquartz
@@ -86,6 +87,7 @@ brew install wdiff -- --with-gettext
 brew install wget
 
 brew install bash-completion
+brew install bazelisk
 brew install cmake
 brew install ctags
 brew install curl -- --with-openssl
