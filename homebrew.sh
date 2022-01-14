@@ -13,6 +13,10 @@ brew install --cask elmedia-player
 brew install --cask keepingyouawake
 brew install --cask shiftit
 
+brew install --cask baidunetdisk
+# brew install --cask google-drive
+# brew install --cask onedrive
+
 # brew install --cask android-messages
 # chrome install messages
 brew install --cask wechat
@@ -25,10 +29,6 @@ brew install --cask whatsapp
 brew install --cask tecent-meeting
 brew install --cask zoom
 # brew install --cask microsoft-teams
-
-brew install --cask baidunetdisk
-# brew install --cask google-drive
-# brew install --cask onedrive
 
 brew install --cask adobe-acrobat-reader
 brew install --cask microsoft-office
@@ -53,10 +53,9 @@ brew install --cask shadowsocksx-ng-r  # shadowsocksx-ng
 brew install --cask proxifier
 
 brew install --cask java
-brew install --cask android-platform-tools
 # brew install --cask android-studio
-# brew install --cask android-sdk
-# brew install --cask android-ndk
+# brew install --cask android-platform-tools
+# brew install --cask android-commandlinetools
 brew install --cask xquartz
 # defaults write org.macosforge.xquartz.X11 enable_iglx -bool true
 
