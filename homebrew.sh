@@ -48,7 +48,7 @@ brew install --cask miniconda
 # brew install --cask wireshark
 
 brew install --cask iterm2
-brew install --cask shadowsocksx-ng-r  # shadowsocksx-ng
+brew install --cask clashx-pro  # shadowsocks, ssr & v2ray
 # brew install --cask openvpn-connect  # wireguard
 brew install --cask proxifier
 
