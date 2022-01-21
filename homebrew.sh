@@ -48,9 +48,9 @@ brew install --cask miniconda
 # brew install --cask wireshark
 
 brew install --cask iterm2
-brew install --cask shadowsocksx-ng-r
+# brew install --cask shadowsocksx-ng-r
 brew install --cask v2rayu
-# brew install --cask openvpn-connect  # wireguard
+# brew install --cask openvpn-connect
 brew install --cask proxifier
 
 brew install --cask java
@@ -108,7 +108,7 @@ brew install zsh
 
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 
-brew install shadowsocks-libev
+# brew install shadowsocks-libev  # v2ray & xray
 # vim $(brew --prefix)/etc/shadowsocks-libev.json
 # brew services start shadowsocks-libev
 
