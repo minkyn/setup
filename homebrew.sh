@@ -39,6 +39,7 @@ brew install --cask xmind-zen
 # mas install trello
 # mas install jira
 # mas install confluence
+# brew install --cask figma
 
 brew install --cask visual-studio-code
 brew install --cask github
