@@ -34,12 +34,12 @@ brew install --cask adobe-acrobat-reader
 brew install --cask microsoft-office
 brew install --cask drawio
 brew install --cask xmind-zen
-# brew install --cask axure-rp
 
 # mas install trello
 # mas install jira
 # mas install confluence
 # brew install --cask figma
+# brew install --cask axure-rp
 
 brew install --cask visual-studio-code
 brew install --cask github
