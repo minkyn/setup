@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 xcode-select --install
-ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 
 brew update
 
@@ -42,6 +42,9 @@ brew install --cask xmind-zen
 # brew install --cask axure-rp
 
 brew install --cask visual-studio-code
+# mas install xcode
+# brew install --cask android-studio
+
 brew install --cask github
 brew install --cask miniconda
 # brew install --cask sequel-pro
@@ -54,10 +57,6 @@ brew install --cask v2rayu
 # brew install --cask openvpn-connect
 brew install --cask proxifier
 
-brew install --cask java
-# brew install --cask android-studio
-# brew install --cask android-platform-tools
-# brew install --cask android-commandlinetools
 brew install --cask xquartz
 # defaults write org.macosforge.xquartz.X11 enable_iglx -bool true
 
@@ -105,9 +104,14 @@ brew install tmux
 brew install tree
 brew install watch
 brew install vim -- --with-override-system-vi
-brew install zsh
 
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+brew install java
+sudo ln -sfn /usr/local/opt/openjdk/libexec/openjdk.jdk /Library/Java/JavaVirtualMachines/openjdk.jdk
+# brew install java11
+# sudo ln -sfn /usr/local/opt/openjdk@11/libexec/openjdk.jdk /Library/Java/JavaVirtualMachines/openjdk-11.jdk
+
+brew install zsh
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
 # brew install shadowsocks-libev  # v2ray & xray
 # vim $(brew --prefix)/etc/shadowsocks-libev.json
