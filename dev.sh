@@ -18,6 +18,7 @@ brew install gstreamer
 
 # Vision
 brew install opencv
+brew install opencv@3
 
 # Audio
 brew install chuck
