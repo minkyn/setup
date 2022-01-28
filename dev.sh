@@ -32,9 +32,16 @@ brew install opensc
 
 # Python
 
+# Standalone
+pipx install awscli
+pipx install glad
+
 # Lint
 conda install pylint
 conda install black
+
+# Test
+conda install pytest
 
 # Data
 conda install numpy
