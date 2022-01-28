@@ -98,6 +98,7 @@ brew install lftp
 brew install nmap
 brew install node
 brew install openssh
+brew install pipx
 brew install python
 brew install repo
 brew install tmux
