@@ -1,6 +1,6 @@
 #!/usr/bin/env/bash
 
-# C/C++ (TODO: Change to apt)
+# C/C++
 
 # Essentials
 brew install gflags
@@ -18,7 +18,6 @@ brew install gstreamer
 
 # Vision
 brew install opencv
-brew install opencv@3
 
 # Audio
 brew install chuck
@@ -31,38 +30,19 @@ brew install sdl2
 # Smart Card
 brew install opensc
 
-# Python (TODO: Change to conda)
-
-# Pip
-pip install --upgrade pip setuptools wheel
-pip check
-
-# CLIs (TODO: Change to pipx)
-brew install pipx
-pipsi install awscli
-pipsi install coursera-dl
-pipsi install glad
-pipsi install pipenv
-pipsi install tox
-pipsi install youtube-dl
+# Python
 
 # Lint
-pipenv install pylint
-pipenv install black
+conda install pylint
+conda install black
 
 # Data
-pipenv install numpy
-pipenv install scipy
-pipenv install pandas
-pipenv install matplotlib
-pipenv install seaborn
-
-# Blaze
-pipenv install blaze
-pipenv install odo
-pipenv install dask
+conda install numpy
+conda install scipy
+conda install pandas
+conda install matplotlib
 
 # AI & ML
-pipenv install scikit-learn
-pipenv install torch torchvision
-pipenv install tensorflow
+conda install tensorflow
+conda install pytorch
+conda install scikit-learn
