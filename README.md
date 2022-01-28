@@ -3,4 +3,4 @@ Setup
 
 My installation scripts.
 
-![My Desktop](desktop.png?raw=true)
+![My Launchpad](launchpad.png?raw=true)
