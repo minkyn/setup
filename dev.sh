@@ -34,6 +34,10 @@ pipx install black
 pipx install glad
 pipx install notebook
 
+# Blockchain
+pipx install eth-brownie
+npm install --save-dev hardhat
+
 # Lint
 conda install pylint
 
