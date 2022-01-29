@@ -1,7 +1,5 @@
 #!/usr/bin/env/bash
 
-# C/C++
-
 # Essentials
 brew install gflags
 brew install protobuf
@@ -30,15 +28,14 @@ brew install sdl2
 # Smart Card
 brew install opensc
 
-# Python
-
-# Standalone
+# Tools
 pipx install awscli
+pipx install black
 pipx install glad
+pipx install notebook
 
 # Lint
 conda install pylint
-conda install black
 
 # Test
 conda install pytest
