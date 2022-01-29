@@ -44,9 +44,8 @@ brew install --cask xmind-zen
 brew install --cask visual-studio-code
 # mas install xcode
 # brew install --cask android-studio
-
 brew install --cask github
-brew install --cask miniconda
+
 # brew install --cask sequel-pro
 # brew install --cask postman
 # brew install --cask wireshark
@@ -56,6 +55,9 @@ brew install --cask iterm2
 brew install --cask v2rayu
 # brew install --cask openvpn-connect
 brew install --cask proxifier
+
+brew install --cask miniconda
+# conda init zsh
 
 brew install --cask xquartz
 # defaults write org.macosforge.xquartz.X11 enable_iglx -bool true
@@ -87,32 +89,37 @@ brew install wdiff -- --with-gettext
 brew install wget
 
 brew install bash-completion
-brew install bazelisk
-brew install cmake
-brew install ctags
 brew install curl -- --with-openssl
 brew install git
-brew install gradle
 brew install htop
 brew install lftp
 brew install nmap
-brew install node
 brew install openssh
-brew install pipx
-brew install python
 brew install repo
 brew install tmux
 brew install tree
 brew install watch
 brew install vim -- --with-override-system-vi
 
+brew install zsh
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+
+brew install bazelisk
+brew install cmake
+
+brew install python
+brew install pipx
+# pipx ensurepath
+
 brew install java
 sudo ln -sfn /usr/local/opt/openjdk/libexec/openjdk.jdk /Library/Java/JavaVirtualMachines/openjdk.jdk
 # brew install java11
 # sudo ln -sfn /usr/local/opt/openjdk@11/libexec/openjdk.jdk /Library/Java/JavaVirtualMachines/openjdk-11.jdk
+brew install gradle
 
-brew install zsh
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+brew install node
+brew install yarn
+# npm install -g yarn
 
 # brew install shadowsocks-libev  # v2ray & xray
 # vim $(brew --prefix)/etc/shadowsocks-libev.json
