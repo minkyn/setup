@@ -36,7 +36,7 @@ pipx install notebook
 
 # Blockchain
 pipx install eth-brownie
-npm install --save-dev hardhat
+npm install -D hardhat
 
 # Lint
 conda install pylint
