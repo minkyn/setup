@@ -118,8 +118,7 @@ sudo ln -sfn /usr/local/opt/openjdk/libexec/openjdk.jdk /Library/Java/JavaVirtua
 brew install gradle
 
 brew install node
-brew install yarn
-# npm install -g yarn
+brew install yarn  # npm install -g yarn
 
 # brew install shadowsocks-libev  # v2ray & xray
 # vim $(brew --prefix)/etc/shadowsocks-libev.json
