@@ -35,8 +35,10 @@ pipx install glad
 pipx install notebook
 
 # Blockchain
+brew install solidity
 pipx install eth-brownie
 npm install -D hardhat
+brew install --cask ganache  # npm install -g ganache
 
 # Lint
 conda install pylint
