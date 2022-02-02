@@ -38,7 +38,7 @@ pipx install notebook
 brew install solidity
 pipx install eth-brownie
 npm install -D hardhat  # npx hardhat node
-npx ganache  # npm install -g ganache
+npm install -g ganache  # npx ganache
 
 # Lint
 conda install pylint
