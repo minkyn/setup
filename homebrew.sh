@@ -30,7 +30,7 @@ brew install --cask tecent-meeting
 brew install --cask zoom
 # brew install --cask microsoft-teams
 
-brew install --cask adobe-acrobat-reader
+brew install --cask adobe-acrobat-pro  # adobe-acrobat-reader
 brew install --cask microsoft-office
 brew install --cask drawio
 brew install --cask xmind-zen
@@ -115,10 +115,8 @@ brew install python
 brew install pipx
 # pipx ensurepath
 
-brew install java
+brew install java  # java11
 sudo ln -sfn /usr/local/opt/openjdk/libexec/openjdk.jdk /Library/Java/JavaVirtualMachines/openjdk.jdk
-# brew install java11
-# sudo ln -sfn /usr/local/opt/openjdk@11/libexec/openjdk.jdk /Library/Java/JavaVirtualMachines/openjdk-11.jdk
 brew install gradle
 
 brew install node
