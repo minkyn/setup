@@ -9,7 +9,7 @@ brew install --cask google-chrome
 brew install --cask the-unarchiver
 brew install --cask folx
 brew install --cask elmedia-player
-# mas install memory diag
+# mas install memory-diag
 brew install --cask keepingyouawake
 brew install --cask shiftit
 
@@ -38,19 +38,23 @@ brew install --cask xmind-zen
 # mas install trello
 # mas install jira
 # mas install confluence
+
 # brew install --cask figma
 # brew install --cask axure-rp
+# brew install --cask sketch
 
 brew install --cask visual-studio-code
 # mas install xcode
 # brew install --cask android-studio
-brew install --cask github
 
-# brew install --cask sequel-pro
+# brew install --cask tableplus
+# brew install --cask sequel-ace
 # brew install --cask postman
 # brew install --cask wireshark
 
+brew install --cask github
 brew install --cask iterm2
+
 # brew install --cask shadowsocksx-ng-r
 brew install --cask v2rayu
 # brew install --cask openvpn-connect
