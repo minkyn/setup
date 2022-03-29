@@ -29,7 +29,7 @@ brew install sdl2
 brew install opensc
 
 # Tools
-pipx install awscli
+brew install awscli
 pipx install black
 pipx install glad
 pipx install notebook
