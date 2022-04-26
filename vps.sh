@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
-# Setup V2Ray
+# ssh-copy-id
 
-# Setup FRP
+# V2Ray
+
+# FRP
