@@ -1,4 +1,19 @@
-#!/usr/bin/env/bash
+#!/usr/bin/env bash
+
+# Environments
+brew install bazelisk
+brew install cmake
+
+brew install python
+brew install pipx
+# pipx ensurepath
+
+brew install java  # java11
+sudo ln -sfn /usr/local/opt/openjdk/libexec/openjdk.jdk /Library/Java/JavaVirtualMachines/openjdk.jdk
+brew install gradle
+
+brew install node
+brew install yarn  # npm install -g yarn
 
 # Essentials
 brew install gflags
