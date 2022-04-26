@@ -35,13 +35,13 @@ brew install --cask microsoft-office
 brew install --cask drawio
 brew install --cask xmind-zen
 
-# mas install trello
-# mas install jira
-# mas install confluence
+# mas install affinity-photo
+# mas install affinity-designer
+# mas install final-cut-pro motion compressor
+# mas install logic-pro main-stage
 
+# mas install trello
 # brew install --cask figma
-# brew install --cask axure-rp
-# brew install --cask sketch
 
 brew install --cask visual-studio-code
 # mas install xcode
@@ -107,20 +107,6 @@ brew install vim -- --with-override-system-vi
 
 brew install zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
-
-brew install bazelisk
-brew install cmake
-
-brew install python
-brew install pipx
-# pipx ensurepath
-
-brew install java  # java11
-sudo ln -sfn /usr/local/opt/openjdk/libexec/openjdk.jdk /Library/Java/JavaVirtualMachines/openjdk.jdk
-brew install gradle
-
-brew install node
-brew install yarn  # npm install -g yarn
 
 # brew install shadowsocks-libev  # v2ray & xray
 # vim $(brew --prefix)/etc/shadowsocks-libev.json
