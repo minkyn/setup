@@ -24,9 +24,9 @@ systemctl restart xray
 # Penetrate Intranet
 
 ## FRP
-wget https://github.com/fatedier/frp/releases/download/v0.42.0/frp_0.42.0_linux_amd64.tar.gz
+curl -LO https://github.com/fatedier/frp/releases/download/v0.42.0/frp_0.42.0_linux_amd64.tar.gz
 tar -xzf frp_0.42.0_linux_amd64.tar.gz
-cd frp_0.42.0_linux_amd64.tar.gz
+cd frp_0.42.0_linux_amd64
 
 echo 'log_file = /var/log/frp/frps.log' >> frps.ini
 vim systemd/frps*.service
