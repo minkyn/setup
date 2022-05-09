@@ -28,10 +28,10 @@ curl -LO https://github.com/fatedier/frp/releases/download/v0.42.0/frp_0.42.0_li
 tar -xzf frp_0.42.0_linux_amd64.tar.gz
 cd frp_0.42.0_linux_amd64
 
-echo 'log_file = /var/log/frp/frps.log' >> frps.ini
+vim frps.ini  # log_file = /var/log/frp/frps.log
 vim systemd/frps*.service
 mkdir -p /usr/local/etc/frp
-mkdir -p /var/log/frp
+install -d -m 700 -o nobody -g nogroup /var/log/frp
 cp frps /usr/local/bin/
 cp frps.ini /usr/local/etc/frp/
 cp systemd/frps*.service /etc/systemd/system/
