@@ -27,10 +27,10 @@ brew install --cask zoom
 brew install --cask adobe-acrobat-pro  # adobe-acrobat-reader
 brew install --cask microsoft-office
 # mas install iWork
-brew install --cask drawio
-brew install --cask xmind-zen
 # brew install --cask macdown
 # brew install --cask mactex
+brew install --cask drawio
+brew install --cask xmind-zen
 
 brew install --cask baidunetdisk
 # brew install --cask google-drive
