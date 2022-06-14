@@ -13,12 +13,6 @@ brew install --cask elmedia-player
 brew install --cask keepingyouawake
 brew install --cask shiftit
 
-brew install --cask baidunetdisk
-# brew install --cask google-drive
-# brew install --cask onedrive
-
-# brew install --cask android-messages
-# chrome install messages
 brew install --cask wechat
 brew install --cask whatsapp
 # brew install --cask wechatwork
@@ -32,8 +26,15 @@ brew install --cask zoom
 
 brew install --cask adobe-acrobat-pro  # adobe-acrobat-reader
 brew install --cask microsoft-office
+# mas install iWork
 brew install --cask drawio
 brew install --cask xmind-zen
+# brew install --cask macdown
+# brew install --cask mactex
+
+brew install --cask baidunetdisk
+# brew install --cask google-drive
+# brew install --cask onedrive
 
 # mas install affinity-photo
 # mas install affinity-designer
@@ -47,10 +48,8 @@ brew install --cask visual-studio-code
 # mas install xcode
 # brew install --cask android-studio
 
-# brew install --cask tableplus
-# brew install --cask sequel-ace
-# brew install --cask postman
-# brew install --cask wireshark
+# brew install --cask tableplus  # sequel-ace
+# brew install --cask paw  # postman insomnia
 
 brew install --cask github
 brew install --cask iterm2
@@ -59,6 +58,7 @@ brew install --cask iterm2
 brew install --cask v2rayu
 # brew install --cask openvpn-connect
 brew install --cask proxifier
+# brew install --cask wireshark
 
 brew install --cask miniconda
 # conda init zsh
