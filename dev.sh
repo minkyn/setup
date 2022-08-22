@@ -24,6 +24,7 @@ brew install nginx
 
 # Database
 brew install mysql
+brew install postgresql
 
 # Multimedia
 brew install ffmpeg
@@ -50,9 +51,11 @@ pipx install glad
 pipx install notebook
 
 # Blockchain
+npm install -D hardhat  # npm install @openzeppelin/contracts
+pip install cairo-nile  # pip install openzeppelin-cairo-contracts
+
 brew install solidity
 pipx install eth-brownie
-npm install -D hardhat  # npx hardhat node
 npm install -g ganache  # npx ganache
 
 # Lint
