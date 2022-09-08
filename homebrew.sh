@@ -15,44 +15,47 @@ brew install --cask shiftit
 
 brew install --cask wechat
 brew install --cask whatsapp
+brew install --cask feishu
+brew install --cask slack
 # brew install --cask wechatwork
 # brew install --cask dingtalk
-# brew install --cask feishu
-# brew install --cask slack
+# brew install --cask discord
 
 brew install --cask tecent-meeting
 brew install --cask zoom
 # brew install --cask microsoft-teams
 
-brew install --cask adobe-acrobat-pro  # adobe-acrobat-reader
-brew install --cask microsoft-office
-# mas install iWork
-# brew install --cask macdown
-# brew install --cask mactex
-brew install --cask drawio
-brew install --cask xmind-zen
-
 brew install --cask baidunetdisk
 # brew install --cask google-drive
 # brew install --cask onedrive
+
+brew install --cask adobe-acrobat-pro  # adobe-acrobat-reader
+brew install --cask microsoft-office
+# mas install iWork
+brew install --cask macdown
+# brew install --cask mactex
+brew install --cask xmind-zen
+# brew install --cask drawio
+brew install --cask loom
 
 # mas install affinity-photo
 # mas install affinity-designer
 # mas install final-cut-pro motion compressor
 # mas install logic-pro main-stage
 
+brew install --cask notion
 # mas install trello
-# brew install --cask figma
+brew install --cask figma
 
 brew install --cask visual-studio-code
 # mas install xcode
 # brew install --cask android-studio
 
-# brew install --cask tableplus  # sequel-ace
-# brew install --cask paw  # postman insomnia
-
 brew install --cask github
 brew install --cask iterm2
+
+# brew install --cask tableplus  # sequel-ace
+# brew install --cask paw  # postman insomnia
 
 # brew install --cask shadowsocksx-ng-r
 brew install --cask v2rayu
