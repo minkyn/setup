@@ -15,10 +15,10 @@ brew install --cask shiftit
 
 brew install --cask wechat
 brew install --cask whatsapp
+# brew install --cask telegram
+# brew install --cask wechatwork
 brew install --cask feishu
 brew install --cask slack
-# brew install --cask wechatwork
-# brew install --cask dingtalk
 # brew install --cask discord
 
 brew install --cask tecent-meeting
