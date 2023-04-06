@@ -8,12 +8,18 @@ brew install python
 brew install pipx
 # pipx ensurepath
 
+brew install rustup-init
+# rustup-init
+
+brew install nvm
+# nvm install --lts
+brew install yarn  # npm install -g yarn
+
+brew install go
+
 brew install java  # java11
 sudo ln -sfn /usr/local/opt/openjdk/libexec/openjdk.jdk /Library/Java/JavaVirtualMachines/openjdk.jdk
 brew install gradle
-
-brew install node
-brew install yarn  # npm install -g yarn
 
 # Essentials
 brew install gflags
