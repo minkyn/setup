@@ -21,9 +21,11 @@ brew install java  # java11
 sudo ln -sfn /usr/local/opt/openjdk/libexec/openjdk.jdk /Library/Java/JavaVirtualMachines/openjdk.jdk
 brew install gradle
 
-# Essentials
-brew install gflags
-brew install protobuf
+# Tools
+brew install awscli
+pipx install black
+pipx install glad
+pipx install notebook
 
 # Service
 brew install nginx
@@ -32,51 +34,38 @@ brew install nginx
 brew install mysql
 brew install postgresql
 
+# Essentials
+conda install gflags
+conda install protobuf
+
 # Multimedia
-brew install ffmpeg
-brew install gstreamer
+conda install ffmpeg
+conda install gstreamer
 
 # Vision
-brew install opencv
+conda install opencv
 
 # Audio
-brew install chuck
+brew install chuck  # conda
 
 # Graphics
-brew install glew
-brew install glfw
-brew install sdl2
+conda install glew
+conda install glfw
+conda install sdl2
 
 # Smart Card
-brew install opensc
-
-# Tools
-brew install awscli
-pipx install black
-pipx install glad
-pipx install notebook
-
-# Blockchain
-npm install -D hardhat  # npm install @openzeppelin/contracts
-pip install cairo-nile  # pip install openzeppelin-cairo-contracts
-
-brew install solidity
-pipx install eth-brownie
-npm install -g ganache  # npx ganache
-
-# Lint
-conda install pylint
-
-# Test
-conda install pytest
+brew install opensc  # conda
 
 # Data
-conda install numpy
-conda install scipy
-conda install pandas
-conda install matplotlib
+pip install numpy
+pip install scipy
+pip install pandas
+pip install matplotlib
 
 # AI & ML
-conda install tensorflow
-conda install pytorch
-conda install scikit-learn
+pip install tensorflow
+pip install pytorch
+pip install scikit-learn
+
+# Blockchain
+npm install -D hardhat
