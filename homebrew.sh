@@ -6,6 +6,7 @@ bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/
 brew update
 
 brew install --cask google-chrome
+# brew install --cask microsoft-edge
 brew install --cask folx
 brew install --cask elmedia-player
 # mas install memory-diag
@@ -14,7 +15,6 @@ brew install --cask shiftit
 brew install --cask the-unarchiver
 
 brew install --cask wechat
-# brew install --cask wechatwork
 brew install --cask feishu
 brew install --cask slack
 brew install --cask whatsapp
@@ -29,38 +29,38 @@ brew install --cask baidunetdisk
 # brew install --cask google-drive
 # brew install --cask onedrive
 
+brew install --cask notion
+brew install --cask figma
+
 brew install --cask adobe-acrobat-pro  # adobe-acrobat-reader
 brew install --cask microsoft-office
 # mas install iWork
 
-brew install --cask macdown
-# brew install --cask mactex
+# mas install trello
 brew install --cask xmind-zen
 # brew install --cask drawio
-# brew install --cask loom
+# brew install --cask mactex
 
 # mas install affinity-photo
 # mas install affinity-designer
 # mas install final-cut-pro motion compressor
-# mas install logic-pro main-stage
+# mas install logic-pro main-stage guitar-pro
 # mas install imovie garage-band
-
-brew install --cask notion
-# mas install trello
-brew install --cask figma
+# brew install --cask blender
 
 brew install --cask visual-studio-code
 # mas install xcode
 # brew install --cask android-studio
+# brew install --cask scratch
 
-# brew install --cask tableplus  # sequel-ace
-# brew install --cask paw  # postman insomnia
+brew install --cask postman  # paw insomnia
+brew install --cask tableplus  # sequel-ace
 
 brew install --cask github
 brew install --cask iterm2
 
-# brew install --cask shadowsocksx-ng-r
 brew install --cask v2rayu
+brew install --cask shadowsocksx-ng-r
 # brew install --cask openvpn-connect
 brew install --cask proxifier
 # brew install --cask wireshark
