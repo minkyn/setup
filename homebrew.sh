@@ -46,6 +46,7 @@ brew install --cask xmind-zen
 # mas install final-cut-pro motion compressor
 # mas install logic-pro main-stage guitar-pro
 # mas install imovie garage-band
+# brew install --cask musescore
 # brew install --cask blender
 
 brew install --cask visual-studio-code
