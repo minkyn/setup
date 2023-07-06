@@ -46,15 +46,13 @@ conda install gstreamer
 conda install opencv
 
 # Audio
-brew install chuck  # conda
+brew install chuck
+brew install lilypond
 
 # Graphics
 conda install glew
 conda install glfw
 conda install sdl2
-
-# Smart Card
-brew install opensc  # conda
 
 # Data
 pip install numpy
