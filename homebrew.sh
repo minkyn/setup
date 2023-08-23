@@ -16,9 +16,10 @@ brew install --cask the-unarchiver
 
 brew install --cask wechat
 brew install --cask feishu
-brew install --cask slack
+brew install --cask wechatwork
 brew install --cask whatsapp
-# brew install --cask telegram
+brew install --cask telegram
+# brew install --cask slack
 # brew install --cask discord
 
 brew install --cask tecent-meeting
@@ -31,12 +32,12 @@ brew install --cask baidunetdisk
 
 brew install --cask notion
 brew install --cask figma
+# mas install trello
 
 brew install --cask adobe-acrobat-pro  # adobe-acrobat-reader
 brew install --cask microsoft-office
 # mas install iWork
 
-# mas install trello
 brew install --cask xmind-zen
 # brew install --cask drawio
 # brew install --cask mactex
