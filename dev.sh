@@ -21,6 +21,10 @@ brew install java  # java11
 sudo ln -sfn /usr/local/opt/openjdk/libexec/openjdk.jdk /Library/Java/JavaVirtualMachines/openjdk.jdk
 brew install gradle
 
+brew install --cask dotnet  # brew install dotnet@6
+
+brew install --cask gcc-arm-embedded
+
 # Tools
 brew install awscli
 pipx install black
