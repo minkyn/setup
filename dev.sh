@@ -17,13 +17,11 @@ brew install yarn  # npm install -g yarn
 
 brew install go
 
-brew install java  # java11
+brew install openjdk
 sudo ln -sfn /usr/local/opt/openjdk/libexec/openjdk.jdk /Library/Java/JavaVirtualMachines/openjdk.jdk
 brew install gradle
 
-brew install --cask dotnet  # brew install dotnet@6
-
-brew install --cask gcc-arm-embedded
+brew install dotnet
 
 # Tools
 brew install awscli
