@@ -1,5 +1,22 @@
 #!/usr/bin/env bash
 
+# VSCode
+ext install ms-vscode.cpptools-extension-pack
+ext install vscjava.vscode-java-pack
+ext install ms-python.python
+ext install ms-toolsai.jupyter
+ext install rust-lang.rust-analyzer
+ext install goland.go
+ext install nomicfoundation.hardhat-solidity
+ext install arm.keil-studio-pack
+ext install ms-python.black-formatter
+ext install esbenp.prettier-vscode
+ext install bierner.github-markdown-preview
+ext install james-yu.latex-workshop
+ext install github.vscode-pull-request-github
+ext install eamodio.gitlens
+ext install github.copilot
+
 # Environments
 brew install bazelisk
 brew install cmake
