@@ -3,11 +3,11 @@
 # Break GFW
 
 ## Nginx
-mkdir -p /var/www/minkyn.com/html
-cp /var/www/html/index.nginx-debian.html /var/www/minkyn.com/html/index.html
-chown -R www-data:www-data /var/www/minkyn.com/html
-vim /etc/nginx/sites-available/minkyn.com
-ln -s /etc/nginx/sites-available/minkyn.com /etc/nginx/sites-enabled/minkyn.com
+mkdir -p /var/www/example.com/html
+cp /var/www/html/index.nginx-debian.html /var/www/example.com/html/index.html
+chown -R www-data:www-data /var/www/example.com/html
+vim /etc/nginx/sites-available/example.com
+ln -s /etc/nginx/sites-available/example.com /etc/nginx/sites-enabled/example.com
 systemctl restart nginx
 
 ## Certbot
@@ -28,14 +28,15 @@ curl -LO https://github.com/fatedier/frp/releases/download/v0.42.0/frp_0.42.0_li
 tar -xzf frp_0.42.0_linux_amd64.tar.gz
 cd frp_0.42.0_linux_amd64
 
-vim frps.ini  # Add to [common]: log_file = /var/log/frp/frps.log
-              # Use [ssh?] and "remote_port = 600?" for frpc.ini
-vim systemd/frps*.service
-mkdir -p /usr/local/etc/frp
-install -d -m 700 -o nobody -g nogroup /var/log/frp
-cp frps /usr/local/bin/
-cp frps.ini /usr/local/etc/frp/
-cp systemd/frps*.service /etc/systemd/system/
+install -m 755 frps /usr/local/bin/
+
+install -m 755 -d /usr/local/etc/frp
+install -o nobody -g nogroup -m 700 -d /var/log/frp
+sed '$ a log_file = /var/log/frp/frps.log' frps.ini > /usr/local/etc/frp/frps.ini
+# Also update server_addr, [ssh] and remote_port for frpc.ini
+
+sed -e 's/bin/local\/bin/g' -e 's/etc/usr\/local\/etc/g' systemd/frps.service > /etc/systemd/system/frps.service
+sed -e 's/bin/local\/bin/g' -e 's/etc/usr\/local\/etc/g' systemd/frps@.service > /etc/systemd/system/frps@.service
 
 systemctl daemon-reload
 systemctl start frps.service
