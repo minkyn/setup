@@ -1,36 +1,34 @@
 #!/usr/bin/env bash
 
-# VSCode
-ext install ms-vscode.cpptools-extension-pack
-ext install vscjava.vscode-java-pack
-ext install ms-python.python
-ext install ms-toolsai.jupyter
-ext install rust-lang.rust-analyzer
-ext install goland.go
-ext install nomicfoundation.hardhat-solidity
-ext install arm.keil-studio-pack
-ext install ms-python.black-formatter
-ext install esbenp.prettier-vscode
-ext install bierner.github-markdown-preview
-ext install james-yu.latex-workshop
-ext install github.vscode-pull-request-github
-ext install eamodio.gitlens
-ext install github.copilot
+# VSCode Extensions
+code --install-extension ms-vscode.cpptools-extension-pack
+code --install-extension vscjava.vscode-java-pack
+code --install-extension ms-python.python
+code --install-extension ms-python.black-formatter
+code --install-extension ms-toolsai.jupyter
+code --install-extension rust-lang.rust-analyzer
+code --install-extension goland.go
+code --install-extension esbenp.prettier-vscode
+code --install-extension ms-vscode.live-server
+code --install-extension NomicFoundation.hardhat-solidity
+code --install-extension Arm.keil-studio-pack
+code --install-extension bierner.github-markdown-preview
+code --install-extension James-Yu.latex-workshop
+code --install-extension GitHub.vscode-pull-request-github
+code --install-extension eamodio.gitlens
+code --install-extension GitHub.copilot
 
 # Environments
 brew install bazelisk
 brew install cmake
 
 brew install python
-brew install pipx
-# pipx ensurepath
+brew install pipx  # pipx ensurepath
 
-brew install rustup-init
-# rustup-init
+brew install rustup-init  # rustup-init
 
-brew install nvm
-# nvm install --lts
-brew install yarn  # npm install -g yarn
+brew install nvm  # nvm install --lts
+brew install yarn
 
 brew install go
 
@@ -46,7 +44,7 @@ pipx install black
 pipx install glad
 pipx install notebook
 
-# Service
+# Services
 brew install nginx
 
 # Database
