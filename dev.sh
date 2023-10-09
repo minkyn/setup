@@ -1,17 +1,18 @@
 #!/usr/bin/env bash
 
 # VSCode Extensions
-code --install-extension ms-vscode.cpptools-extension-pack
-code --install-extension vscjava.vscode-java-pack
 code --install-extension ms-python.python
 code --install-extension ms-python.black-formatter
 code --install-extension ms-toolsai.jupyter
 code --install-extension rust-lang.rust-analyzer
-code --install-extension goland.go
 code --install-extension esbenp.prettier-vscode
 code --install-extension ms-vscode.live-server
-code --install-extension NomicFoundation.hardhat-solidity
+code --install-extension goland.go
+code --install-extension vscjava.vscode-java-pack
+code --install-extension ms-dotnettools.csdevkit
+code --install-extension ms-vscode.cpptools-extension-pack
 code --install-extension Arm.keil-studio-pack
+code --install-extension NomicFoundation.hardhat-solidity
 code --install-extension bierner.github-markdown-preview
 code --install-extension James-Yu.latex-workshop
 code --install-extension GitHub.vscode-pull-request-github
