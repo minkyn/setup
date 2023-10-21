@@ -14,6 +14,8 @@ code --install-extension ms-vscode.cpptools-extension-pack
 code --install-extension Arm.keil-studio-pack
 code --install-extension NomicFoundation.hardhat-solidity
 code --install-extension ms-vscode.hexeditor
+code --install-extension Postman.postman-for-vscode
+code --install-extension mtxr.sqltools
 code --install-extension bierner.github-markdown-preview
 code --install-extension James-Yu.latex-workshop
 code --install-extension GitHub.vscode-pull-request-github
