@@ -34,6 +34,7 @@ brew install --cask adobe-acrobat-pro
 brew install --cask microsoft-office
 # mas install iWork
 brew install --cask xmind-zen
+brew install --cask loom
 brew install --cask mactex-no-gui  # tlmgr update
 # mas install zlibrary
 
