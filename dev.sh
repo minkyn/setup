@@ -7,6 +7,7 @@ code --install-extension ms-toolsai.jupyter
 code --install-extension rust-lang.rust-analyzer
 code --install-extension esbenp.prettier-vscode
 code --install-extension ms-vscode.live-server
+code --install-extension dart-code.flutter
 code --install-extension goland.go
 code --install-extension vscjava.vscode-java-pack
 code --install-extension ms-dotnettools.csdevkit
