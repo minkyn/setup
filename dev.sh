@@ -43,11 +43,20 @@ brew install gradle
 
 brew install dotnet
 
+brew install cocoapods
+
 # Tools
 brew install awscli
 pipx install black
 pipx install glad
 pipx install notebook
+
+# Frontend
+brew install --cask flutter
+
+# Essentials
+conda install gflags
+conda install protobuf
 
 # Services
 brew install nginx
@@ -55,10 +64,6 @@ brew install nginx
 # Database
 brew install mysql
 brew install postgresql
-
-# Essentials
-conda install gflags
-conda install protobuf
 
 # Multimedia
 conda install ffmpeg
