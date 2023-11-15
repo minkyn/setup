@@ -82,6 +82,7 @@ brew install gpatch
 brew install grep -- --with-default-names
 brew install gzip
 brew install less
+brew install libtool
 brew install make -- --with-default-names
 brew install nano
 brew install screen
