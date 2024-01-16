@@ -5,6 +5,7 @@ code --install-extension ms-python.python
 code --install-extension ms-python.black-formatter
 code --install-extension ms-toolsai.jupyter
 code --install-extension rust-lang.rust-analyzer
+code --install-extension dbaeumer.vscode-eslint
 code --install-extension esbenp.prettier-vscode
 code --install-extension ms-vscode.live-server
 code --install-extension dart-code.flutter
