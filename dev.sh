@@ -51,18 +51,19 @@ brew install cocoapods
 
 # Tools
 brew install awscli
+brew install jq
 pipx install black
 pipx install glad
 pipx install notebook
-
-# Frontend
-brew install --cask flutter
 
 # Essentials
 conda install gflags
 conda install protobuf
 
-# Services
+# Frontend
+brew install --cask flutter
+
+# Backend
 brew install nginx
 
 # Database
@@ -72,11 +73,7 @@ brew install postgresql
 # Multimedia
 conda install ffmpeg
 conda install gstreamer
-
-# Vision
 conda install opencv
-
-# Audio
 brew install chuck
 brew install lilypond
 
@@ -97,4 +94,4 @@ pip install pytorch
 pip install scikit-learn
 
 # Blockchain
-npm install -D hardhat
+yarn add --dev hardhat
