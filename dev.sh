@@ -11,7 +11,7 @@ code --install-extension bradlc.vscode-tailwindcss
 code --install-extension ms-vscode.live-server
 code --install-extension dart-code.flutter
 code --install-extension vue.volar
-code --install-extension vue.vscode-typescript-vue-plugin
+code --install-extension sswg.swift-lang
 code --install-extension goland.go
 code --install-extension vscjava.vscode-java-pack
 code --install-extension ms-dotnettools.csdevkit
@@ -21,7 +21,7 @@ code --install-extension NomicFoundation.hardhat-solidity
 code --install-extension ms-vscode.hexeditor
 code --install-extension Postman.postman-for-vscode
 code --install-extension mtxr.sqltools
-code --install-extension bierner.github-markdown-preview
+code --install-extension yzhang.markdown-all-in-one
 code --install-extension James-Yu.latex-workshop
 code --install-extension GitHub.vscode-pull-request-github
 code --install-extension eamodio.gitlens
