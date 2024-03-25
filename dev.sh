@@ -19,6 +19,7 @@ code --install-extension ms-vscode.cpptools-extension-pack
 code --install-extension Arm.keil-studio-pack
 code --install-extension NomicFoundation.hardhat-solidity
 code --install-extension ms-vscode.hexeditor
+code --install-extension figma.figma-vscode-extension
 code --install-extension Postman.postman-for-vscode
 code --install-extension mtxr.sqltools
 code --install-extension yzhang.markdown-all-in-one
