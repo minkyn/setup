@@ -37,10 +37,11 @@ code --install-extension GitHub.copilot
 code --install-extension eamodio.gitlens
 
 # Environments
+xcode-select --install
 brew install bazelisk
 brew install cmake
 
-brew install python
+brew install --cask miniconda  # conda init
 brew install pipx  # pipx ensurepath
 
 brew install rustup-init  # rustup-init
@@ -51,7 +52,7 @@ brew install yarn
 brew install go
 
 brew install openjdk
-sudo ln -sfn /usr/local/opt/openjdk/libexec/openjdk.jdk /Library/Java/JavaVirtualMachines/openjdk.jdk
+sudo ln -sfn $(brew --prefix openjdk)/libexec/openjdk.jdk /Library/Java/JavaVirtualMachines/openjdk.jdk
 brew install gradle
 
 brew install dotnet
@@ -61,13 +62,6 @@ brew install cocoapods
 # Tools
 brew install awscli
 brew install jq
-pipx install black
-pipx install glad
-pipx install notebook
-
-# Essentials
-conda install gflags
-conda install protobuf
 
 # Frontend
 brew install --cask flutter
@@ -77,7 +71,6 @@ brew install nginx
 
 # Database
 brew install mysql
-brew install postgresql
 
 # Multimedia
 conda install ffmpeg
@@ -87,6 +80,7 @@ brew install chuck
 brew install lilypond
 
 # Graphics
+pipx install glad
 conda install glew
 conda install glfw
 conda install sdl2
