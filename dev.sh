@@ -62,6 +62,7 @@ brew install cocoapods
 # Tools
 brew install awscli
 brew install jq
+brew install swagger-codegen
 
 # Frontend
 brew install --cask flutter
