@@ -41,11 +41,13 @@ brew install --cask xmind
 brew install --cask loom
 brew install --cask mactex-no-gui  # tlmgr update
 
-# mas install affinity-photo affinity-designer
+brew install --cask affinity-photo
+brew install --cask affinity-designer
+brew install --cask affinity-publisher
 # mas install final-cut-pro compressor motion
 # mas install logic-pro garage-band main-stage
-brew install --cask blender
-brew install --cask musescore
+# brew install --cask blender
+# brew install --cask musescore
 
 brew install --cask visual-studio-code
 brew install --cask postman
