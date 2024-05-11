@@ -19,26 +19,26 @@ brew install --cask the-unarchiver
 brew install --cask keepingyouawake
 # mas install memory-diag
 # brew install --cask openemu
-# brew install --cask zlibrary
 
 brew install --cask wechat
 brew install --cask feishu
-brew install --cask wechatwork
 brew install --cask telegram
 brew install --cask slack
-brew install --cask whatsapp
-brew install --cask discord
+brew install --cask wechatwork
 brew install --cask tencent-meeting
+brew install --cask whatsapp
 brew install --cask zoom
+brew install --cask discord
 
 brew install --cask baidunetdisk
+
 brew install --cask notion
 brew install --cask figma
 brew install --cask adobe-acrobat-pro
 brew install --cask microsoft-office
 # mas install iWork
 brew install --cask xmind
-brew install --cask loom
+# brew install --cask loom
 brew install --cask mactex-no-gui  # tlmgr update
 
 brew install --cask affinity-photo
@@ -46,8 +46,8 @@ brew install --cask affinity-designer
 brew install --cask affinity-publisher
 # mas install final-cut-pro compressor motion
 # mas install logic-pro garage-band main-stage
-# brew install --cask blender
 # brew install --cask musescore
+# brew install --cask blender
 
 brew install --cask visual-studio-code
 brew install --cask postman
