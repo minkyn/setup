@@ -52,7 +52,7 @@ brew install yarn
 brew install go
 
 brew install openjdk
-sudo ln -sfn $(brew --prefix openjdk)/libexec/openjdk.jdk /Library/Java/JavaVirtualMachines/openjdk.jdk
+sudo ln -s $(brew --prefix openjdk)/libexec/openjdk.jdk /Library/Java/JavaVirtualMachines  # /Applications/Android\ Studio.app/Contents/jbr
 brew install gradle
 
 brew install dotnet
