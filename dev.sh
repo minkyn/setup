@@ -20,8 +20,11 @@ code --install-extension ms-dotnettools.csdevkit
 code --install-extension ms-vscode.cpptools-extension-pack
 
 code --install-extension Arm.keil-studio-pack
-code --install-extension NomicFoundation.hardhat-solidity
+code --install-extension paulober.pico-w-go
 code --install-extension ms-vscode.hexeditor
+
+code --install-extension NomicFoundation.hardhat-solidity
+code --install-extension MoveBit.aptos-move-analyzer
 
 code --install-extension yzhang.markdown-all-in-one
 code --install-extension James-Yu.latex-workshop
@@ -33,8 +36,10 @@ code --install-extension mtxr.sqltools
 code --install-extension GitHub.remotehub
 code --install-extension GitHub.vscode-pull-request-github
 code --install-extension github.vscode-github-actions
-code --install-extension GitHub.copilot
 code --install-extension eamodio.gitlens
+
+code --install-extension GitHub.copilot
+code --install-extension anthropic.claude-code
 
 # Environments
 xcode-select --install
@@ -43,11 +48,13 @@ brew install cmake
 
 brew install --cask miniconda  # conda init
 brew install pipx  # pipx ensurepath
+brew install uv
 
 brew install rustup-init  # rustup-init
 
 brew install nvm  # nvm install --lts
 brew install yarn
+brew install oven-sh/bun/bun
 
 brew install go
 
