@@ -22,6 +22,7 @@ brew install --cask keepingyouawake
 
 brew install --cask wechat
 brew install --cask feishu
+brew install --cask dingtalk
 brew install --cask wechatwork
 brew install --cask whatsapp
 brew install --cask telegram
