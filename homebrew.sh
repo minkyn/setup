@@ -10,9 +10,7 @@ brew install --cask elmedia-player
 brew install --cask qqlive
 brew install --cask qqmusic
 
-# brew install --cask clashx-meta
-brew install --cask shadowsocksx-ng-r
-brew install --cask v2rayu
+brew install --cask clash-verge-rev
 brew install --cask proxifier
 
 brew install --cask the-unarchiver
@@ -50,8 +48,10 @@ brew install --cask affinity-publisher
 # brew install --cask blender
 
 brew install --cask visual-studio-code
+# brew install --cask antigravity
 brew install --cask postman
 brew install --cask tableplus
+brew install --cask docker-desktop
 brew install --cask github
 brew install --cask iterm2
 # mas install xcode
